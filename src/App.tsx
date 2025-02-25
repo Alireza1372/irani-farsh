@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 function App() {
   return (
     <>
-      <section className="px-container">
+      <section className="px-container font-rokh">
         <Header />
       </section>
     </>

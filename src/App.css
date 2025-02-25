@@ -1,11 +1,19 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "rokh";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./assets/fonts/Rokh-Regular.woff2") format("woff2");
+}
+
 @theme {
   --color-primary: #cb1b1b;
   --color-black: #121212;
   --color-white: #ffffff;
   --color-neutral: #ededed;
-  
+
   --spacing-container: 6.75rem;
 
   --text-body-md: 18px;
@@ -13,4 +21,6 @@
 
   --text-title-lg: 40px;
   --text-title-sm: 20px;
+
+  --font-rokh: "rokh";
 }
