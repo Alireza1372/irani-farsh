@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #cb1b1b;
+  --color-black: #121212;
+  --color-white: #ffffff;
+  --color-neutral: #ededed;
+  
+  --spacing-container: 6.75rem;
+
+  --text-body-md: 18px;
+  --text-body-lg: 24px;
+
+  --text-title-lg: 40px;
+  --text-title-sm: 20px;
+}
